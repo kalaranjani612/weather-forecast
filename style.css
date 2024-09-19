@@ -93,3 +93,153 @@ width:100%;
 .main{
     background-color: black;
 }
+
+.page1{
+    width: 100%;
+   min-height: 100vh;
+   background-color: #0B0B0B;
+   display: flex;
+
+}
+
+.left{
+    width: 40%;
+    height: 100vh;
+    background-color:#0B0B0B;
+    position: relative;
+}
+.left input{
+ margin: 2vw 1vw;
+ padding: 1vh 13vw;
+ border-radius: 20px;
+ border: none;
+  background-color: rgb(33, 33, 32);
+  color: #fff;
+  border: 1px solid white;
+}
+.left #one{
+    color: white;
+    font-size: 1.2vw;
+    position: absolute;
+    left: 5%;
+    top: 4.7%;
+}
+.left input::placeholder{
+    color: #fff;
+    font-weight: 500;
+}
+.containt{
+    width: 100%;
+    height: 75vh;
+    
+    border-radius: 20px;
+}
+.containt-top{
+    width: 100%;
+    height: 40%;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+.containt-top #two{
+    color: #fff;
+    position: absolute;
+    left: 54%;
+    
+}
+.containt-top h1{
+    font-size: 3vw;
+    color: #fff;
+    padding-bottom: 1vw;
+    font-weight: 500;
+
+}
+.containt-top h4{
+    color: #fff;
+    padding-bottom: 1.2vw;
+
+}
+.containt-top p {
+  color: #fff;
+}
+.containt-bottom{
+    width: 100%;
+    height: 60%;
+   
+  
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: #23252D;
+    border-radius: 12px;
+    padding: 1vw 1vw;
+    color: #fff;
+}
+.box-part1{
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+    color: #fff;
+}
+.box h4{
+    padding-top: 1vw;
+}
+.partition1{
+    width: 100%;
+    height: 50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7vw;
+}
+.partition2{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7vw;
+}
+.right{
+height: 100vh;
+/* background-color: slateblue; */
+width: 60%;
+position: relative;
+
+}
+.topbox{
+    width:95%;
+    height:30%;
+    background-color:transparent;
+    margin: 2vw;
+    border-radius: 12px;
+    padding: 2vw 2vw;
+    border: 1px solid white;
+    color: #fff;
+   
+}
+.top-box2{
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    margin:  2vw 2vw;
+}
+.time-box{
+    width: 80px;
+    height: 80px;
+    background-color:#34333D;
+    border-radius: 12px;
+    padding: 1vw 1vw;
+    color: #fff;
+}
+.topbox h3{
+ font-weight: 300;
+ 
+}

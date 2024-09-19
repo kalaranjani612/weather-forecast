@@ -22,7 +22,7 @@ tl.from('.line-part1, .line h2', {
                 grow = 100
             }
 
-        }, 20)
+        }, 10)
     }
 })
 tl.to('.line h2',{
